@@ -1,3 +1,0 @@
-# Hello World
-
-Hi, I'm Alvin, a front-end developer.

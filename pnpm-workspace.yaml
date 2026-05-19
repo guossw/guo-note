@@ -1,3 +1,0 @@
-packages:
-  - 'code/*'
-  # all packages in direct subdirs of packages/

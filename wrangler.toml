@@ -1,0 +1,10 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+main = ".open-next/worker.js"
+name = "note"
+# Set this to today's date
+compatibility_date = "2026-05-19"
+compatibility_flags = [ "nodejs_compat" ]
+
+[assets]
+directory = "docs/.vitepress/dist"
+binding = "ASSETS"

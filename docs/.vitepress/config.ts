@@ -10,7 +10,6 @@ export default defineConfig({
   title: "Alvin's note",
   description: 'Peace and love...',
   lastUpdated: true,
-  base: '/note/',
   themeConfig: {
     algolia: {
       appId: '4QUKK9AB99',
@@ -26,7 +25,7 @@ export default defineConfig({
       '/ai/': [
         {
           text: 'Awsome',
-          items: [{ text: 'ChatGPT', link: '/ai/chatgpt' }],
+          items: [],
         },
       ],
       '/network-protocol/': [
