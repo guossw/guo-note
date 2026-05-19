@@ -39,7 +39,7 @@ def git_auto_commit_time():
         )
 
         # 生成提交信息（带序号）
-        commit_message = f"Auto commit at {time_str}"
+        commit_message = f"Updated at {time_str}"
 
         # 执行git操作
         print(f"🕒 提交时间: {time_str}")
