@@ -23,7 +23,10 @@ export default defineConfig({
     sidebar: [
       {
         text: 'AI',
-        items: [{ text: 'Guide', link: '/ai/guide' }],
+        items: [
+          { text: 'Guide', link: '/ai/guide' },
+          { text: 'MCP', link: '/ai/mcp' },
+        ],
       },
       {
         collapsed: true,
