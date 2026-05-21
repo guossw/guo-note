@@ -10,9 +10,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '4QUKK9AB99',
-        apiKey: '859dce261164de50e0989b1b9e819711',
-        indexName: 'alvin0216io',
+        appId: 'MJRDI0LXUM',
+        apiKey: 'e9ee5bd812b42c7f3c20973297a3197b',
+        indexName: 'guo-note',
       },
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/guossw/note' }],
