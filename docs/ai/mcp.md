@@ -1,5 +1,7 @@
 # MCP
 
+![](../assets/mcp.png)
+
 ## 什么是 MCP
 
 MCP（Model Context Protocol）是 Anthropic 提出的 AI 工具通用接口标准。
@@ -13,8 +15,6 @@ MCP（Model Context Protocol）是 Anthropic 提出的 AI 工具通用接口标�
 - 外部资源（文件、数据库、API 等）
 
 核心价值是：工具接入一次，就能被所有支持 MCP 的客户端复用，避免重复开发。
-
-![](../assets/mcp.png)
 
 ## MCP 的工作流程
 

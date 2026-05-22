@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress';
+import { ImagePreviewPlugin } from 'vitepress-plugin-image-preview';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Guo's note",
   description: 'learning notes, ai, algoritm, protocol...',
   srcDir: 'docs',
+  vite: {
+    plugins: [ImagePreviewPlugin({ zoomRatio: 1.1 })],
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -96,7 +100,6 @@ export default defineConfig({
             text: '回溯算法',
             collapsed: true,
             items: [
-              { text: '回溯算法', link: '/algorithm/回溯/回溯算法' },
               { text: '回溯排列', link: '/algorithm/回溯/回溯排列' },
               { text: '回溯分割', link: '/algorithm/回溯/回溯分割' },
               { text: '子集', link: '/algorithm/回溯/子集' },
