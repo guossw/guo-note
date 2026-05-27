@@ -16,11 +16,17 @@ hero:
       text: protocol
       link: /protocol/dns
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - icon: 🤗
+    title: Hugging Face
+    details: 模型、数据集与 Spaces
+    link: https://huggingface.co
+  - icon: 🏪
+    title: MCP 市场
+    details: 浏览可用的 MCP Servers
+    link: https://mcp.so/
+  - icon: 🚀
+    title: Skill 市场
+    details: 探索 AI 应用与可复用能力模板
+    link: https://skillsmp.com/zh
 ---

@@ -30,6 +30,8 @@ export default defineConfig({
         items: [
           { text: 'Guide', link: '/ai/guide' },
           { text: 'MCP', link: '/ai/mcp' },
+          { text: 'Skill', link: '/ai/skill' },
+          { text: 'Harness', link: '/ai/harness' },
         ],
       },
       {
