@@ -6,10 +6,58 @@
 
 ## MCP Server 开发实践
 
-MCP servers 可以提供三种主要类型的功能：
+[MCP Server 开发实践文档](https://modelcontextprotocol.io/docs/develop/clients/client-best-practices)
 
-- Resources（资源）：类似文件的数据，可以被客户端读取（如 API 响应或文件内容）
-- Tools（工具）：可以被 LLM 调用的函数（需要用户批准）
-- Prompts（提示）：预先编写的模板，帮助用户完成特定任务
+## 基于 AI 辅助编写 MCP Server
 
-Anthropic 为我们提供了一个基于 LLM 的 MCP Server 的 [最佳开发实践](https://modelcontextprotocol.io/docs/develop/build-with-agent-skills)。
+```text
+请基于 node 实现一个标准的 MCP（Model Context Protocol）Server，严格遵循 MCP 协议规范。
+
+功能需求：
+
+- 自动获取当前操作系统的桌面路径
+- 统计桌面上所有 .txt 后缀的文件数量
+- 获取桌面上所有 .txt 文件的文件名列表（不含路径，仅文件名）
+- 暴露两个 MCP 工具：count_txt_files、list_txt_files
+
+实现要求：
+
+- 兼容 Windows 平台
+- 增加异常处理（文件权限、桌面路径不存在）
+- 代码简洁、注释清晰、符合生产最佳实践
+- 输出完整可运行代码 + 安装依赖命令 + 运行方法
+```
+
+## 使用 inspector 调试 MCP Server
+
+```bash
+npx @modelcontextprotocol/inspector node src/index.js
+```
+
+自动打开浏览器，点击 Connect -> List Tools -> 选择 count_txt_files 或 list_txt_files -> 点击 Run Tool。
+
+即可看到运行结果。
+
+## 在 Cline 中测试 MCP Server
+
+配置 MCP Server
+
+![](../assets/cline.png)
+
+在 vscode 打开 Cline 插件，点击 mcp servers, Configure, Configure, 配置：
+
+```json
+{
+  "mcpServers": {
+    "desktop-txt": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "cwd": "c:/Users/guosw5/Desktop/codes/ai-learning"
+    }
+  }
+}
+```
+
+## 验证写好的 mcp server
+
+![](../assets/cline2.png)
