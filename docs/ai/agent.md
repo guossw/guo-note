@@ -1,4 +1,4 @@
-# AI智能体(Agent)
+# AI Agent
 
 ![](../assets/agent.png)
 

@@ -31,15 +31,13 @@ export default defineConfig({
         items: [
           { text: 'Guide', link: '/ai/guide' },
           { text: 'Agent', link: '/ai/agent' },
+          { text: 'Rag', link: '/ai/rag' },
+          { text: 'Mcp', link: '/ai/mcp' },
           { text: 'Skill', link: '/ai/skill' },
           { text: 'Harness', link: '/ai/harness' },
         ],
       },
-      {
-        collapsed: true,
-        text: 'AI Practice',
-        items: [{ text: 'MCP Server', link: '/ai/mcp' }],
-      },
+
       {
         collapsed: true,
         text: 'Algorithm',
