@@ -26,13 +26,19 @@ export default defineConfig({
     },
     sidebar: [
       {
+        collapsed: true,
         text: 'AI',
         items: [
           { text: 'Guide', link: '/ai/guide' },
-          { text: 'MCP', link: '/ai/mcp' },
+          { text: 'Agent', link: '/ai/agent' },
           { text: 'Skill', link: '/ai/skill' },
           { text: 'Harness', link: '/ai/harness' },
         ],
+      },
+      {
+        collapsed: true,
+        text: 'AI Practice',
+        items: [{ text: 'MCP Server', link: '/ai/mcp' }],
       },
       {
         collapsed: true,
