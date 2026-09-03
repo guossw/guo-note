@@ -145,6 +145,17 @@ sidebar: auto
 - 岛屿的周长
 - 岛屿的最大面积
 
+## 排序算法
+
+- [冒泡排序](./sort/bubbleSort.md)
+- [选择排序](./sort/selectionSort.md)
+- [插入排序](./sort/insertSort.md)
+- [归并排序](./sort/mergeSort.md)
+- [快速排序](./sort/quickSort.md)
+- [希尔排序](./sort/shellSort.md)
+- [堆排序](./sort/heapSort.md)
+- [基数排序](./sort/countSort.md)
+
 ## leetcode top 100
 
 | 题目                                          | 出现次数 | 链接                                                                                               |

@@ -9,8 +9,6 @@ categories:
   - 算法与数据结构
 ---
 
-<!-- ![](https://alvin-cdn.oss-cn-shenzhen.aliyuncs.com/images/merge.png) -->
-
 用到分治算法，将大数组二分为一为两个小数组，递归去比较排序。算法复杂度 $O(nlog(n))$
 
 ```js

@@ -21,7 +21,7 @@ categories:
 
 - 不稳定
 - 在快要排序完成的数组有 `O(n·log(n))` 的时间复杂度（并且它对于反转数组的速度非常快）
-- `O(n^3/2)` time as shown (想要了解更多细节，请查阅 [wikipedia Shellsor](https://en.wikipedia.org/wiki/Shellsort#Applications))
+- `O(n^3/2)` time as shown (想要了解更多细节，请查阅 [wikipedia Shellsort](https://en.wikipedia.org/wiki/Shellsort#Applications))
 
 ::: warning 关于不稳定
 我们知道, 单次直接插入排序是稳定的，它不会改变相同元素之间的相对顺序，但在多次不同的插入排序过程中, 相同的元素可能在各自的插入排序中移动，可能导致相同元素相对顺序发生变化。因此, 希尔排序并不稳定。

@@ -4,6 +4,7 @@ layout: home
 
 hero:
   name: "Guo's note"
+  text: "AI · 算法 · 协议"
   tagline: keep learning...
   actions:
     - theme: brand

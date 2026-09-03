@@ -1,7 +1,7 @@
 ---
 title: HTTP 脑图
 date: 2020-12-16 20:09:24
-sidebar: 'auto'
+sidebar: auto
 tags:
   - http
 categories:

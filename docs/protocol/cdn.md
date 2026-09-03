@@ -1,7 +1,7 @@
 ---
 title: CDN
 date: 2018-09-28 17:00:28
-sidebar: 'auto'
+sidebar: auto
 tags:
   - cdn
 categories:

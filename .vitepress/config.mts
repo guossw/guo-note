@@ -28,7 +28,7 @@ export default defineConfig({
       {
         collapsed: true,
         text: 'AI',
-        items: [],
+        items: [{ text: 'AI 指南', link: '/ai/guide' }],
       },
 
       {
@@ -132,6 +132,7 @@ export default defineConfig({
               { text: '快速排序', link: '/algorithm/sort/quickSort' },
               { text: '希尔排序', link: '/algorithm/sort/shellSort' },
               { text: '堆排序', link: '/algorithm/sort/heapSort' },
+              { text: '基数排序', link: '/algorithm/sort/countSort' },
             ],
           },
         ],
@@ -141,7 +142,7 @@ export default defineConfig({
         text: 'Protocol',
         items: [
           {
-            text: 'Awsome',
+            text: 'Awesome',
             items: [
               { text: 'DNS', link: '/protocol/dns' },
               { text: 'CDN', link: '/protocol/cdn' },
@@ -186,8 +187,11 @@ export default defineConfig({
               { text: 'http2新功能', link: '/protocol/17.http2新功能' },
               { text: 'http2剖析', link: '/protocol/18.http2剖析' },
               { text: 'http2服务器推送功能', link: '/protocol/19.http2服务器推送功能' },
-              { text: 'http3', link: '/protocol/20.http3' },
             ],
+          },
+          {
+            text: 'HTTP3',
+            items: [{ text: 'http3', link: '/protocol/20.http3' }],
           },
         ],
       },
