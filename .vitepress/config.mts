@@ -28,7 +28,10 @@ export default defineConfig({
       {
         collapsed: true,
         text: 'AI',
-        items: [{ text: 'AI 指南', link: '/ai/guide' }],
+        items: [
+          { text: 'AI 指南', link: '/ai/guide' },
+          { text: '大模型概览', link: '/ai/models' },
+        ],
       },
 
       {
