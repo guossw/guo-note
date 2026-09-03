@@ -28,14 +28,7 @@ export default defineConfig({
       {
         collapsed: true,
         text: 'AI',
-        items: [
-          { text: 'Guide', link: '/ai/guide' },
-          { text: 'Agent', link: '/ai/agent' },
-          { text: 'Rag', link: '/ai/rag' },
-          { text: 'Mcp', link: '/ai/mcp' },
-          { text: 'Skill', link: '/ai/skill' },
-          { text: 'Harness', link: '/ai/harness' },
-        ],
+        items: [],
       },
 
       {
