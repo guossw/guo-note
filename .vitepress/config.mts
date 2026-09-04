@@ -33,6 +33,7 @@ export default defineConfig({
           { text: '大模型概览', link: '/ai/models' },
           { text: '前缀缓存', link: '/ai/prefix-caching' },
           { text: '上下文压缩', link: '/ai/context-compression' },
+          { text: '省 Token 方案与工具', link: '/ai/token-saving' },
         ],
       },
 
