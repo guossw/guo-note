@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Guo's note"
+  name: "读书笔记"
   text: "AI · 算法 · 协议"
   tagline: keep learning...
   actions:

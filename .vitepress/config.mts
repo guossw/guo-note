@@ -30,10 +30,10 @@ export default defineConfig({
         text: 'AI',
         items: [
           { text: 'AI 指南', link: '/ai/guide' },
-          { text: '大模型概览', link: '/ai/models' },
-          { text: '前缀缓存', link: '/ai/prefix-caching' },
-          { text: '上下文压缩', link: '/ai/context-compression' },
-          { text: '省 Token 方案与工具', link: '/ai/token-saving' },
+          { text: '基础数学', link: '/ai/基础数学' },
+          { text: '神经网络', link: '/ai/神经网络' },
+          { text: '自然语言处理', link: '/ai/自然语言处理' },
+          { text: '大语言模型', link: '/ai/大语言模型' },
         ],
       },
 
